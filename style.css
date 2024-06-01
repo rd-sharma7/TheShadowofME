@@ -6,11 +6,13 @@ padding: 0;
 
 body
 {
+min-height: 100vh;
 background-color: white;
-font-family: "Montserrat", sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
-
+/*
 header{
    height: 40px;
    background-color: white;
@@ -40,7 +42,7 @@ header{
 .menu
 {  height: 40px;
    display: flex;
-   padding-left: 40px;
+   padding-left: 0px;
     margin-left: 35rem;
    border: 1px solid gray;
    align-items:flex-end;
@@ -51,4 +53,26 @@ header{
 }
 
 
+ */
+nav
+{
+   box-shadow: 3px 3px 5px sandybrown;
+}
 
+
+
+ .nav-div1
+ {
+   display: flex inline;
+   height: 2rem;
+   width: auto;
+   padding: 3px;
+   position: fixed;
+   background-color: darkorange;
+
+ }
+
+ .nav-div1 ul
+ {
+   list-style-type: none;
+ }
