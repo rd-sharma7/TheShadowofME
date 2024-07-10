@@ -1,0 +1,212 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #icon-nav {
+      display: flex;
+       
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+  .front-div
+{ 
+  height: 400px;
+  width:auto;
+  display: flex;
+   
+  background-repeat: no-repeat;
+  background-image: url(./assets/WhatsApp\ Video\ 2024-06-02\ at\ 15.35.15_64ddd603.mp4);
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+}
+  }
+
+  @media screen and (max-width: 1200px) {
+   .navigation , .welcome-message
+   {
+    display: none;
+   }
+
+   .hero-section
+   {
+    height: 480px;
+    width: 100%;
+    display: flex;
+   }
+
+
+   .logo {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 0ch;
+    font-size: 2rem;
+   }
+
+  }
+
+  @media screen and (max-width: 1200px){
+
+    .mobile-intro
+    {
+      display: inline;
+    }
+
+    .desk-intro
+    {
+      display: none;
+    }
+
+    .cool-scene
+    {
+      display: unset;
+    }
+
+
+    .pic-container{
+
+      display: flex ;
+      height: 189px;
+      width: 189 px;
+      border-radius: 50%;
+      background-image: url(./assets/develop-web.gif);
+      background-size: cover;
+      
+      margin-top: 32px;
+      margin-left: 4ch;
+      margin-bottom: 32px;
+
+    }
+   
+
+  }
+
+  @media screen and (max-width: 1200px){
+    .sec-text1
+{
+  align-self: center;
+  text-align: center;
+  margin-left: 65px;
+  font-size: 20px;
+  color: #555555 ;
+}
+
+
+#hii
+{
+  color:black;
+  align-self: center;
+  text-align: center;
+  margin-left: 35px;
+}
+
+#tech-stack
+{
+  align-self: center;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+  color: #555555 ;
+}
+
+#name{
+
+  margin-left: 125px;
+
+}
+
+  
+  }
+
+  @media screen and (max-width: 1200px){
+  
+  .mcool-scene
+  {
+    height: 400px;
+    width: 100%;
+    background-image: url(./image.jpg);
+  }
+  }
+
+  @media screen and (max-width: 1200px){
+  
+    section h1
+    {
+     color: red;
+     font-size: 2rem;
+     text-underline-offset: 1.2rem;
+     text-decoration-line: underline;
+     margin-bottom: 3rem;
+   
+    }
+    section .introduction
+    {
+     height: 70vh;
+     width: 100%;
+     display: flex;
+     margin-left: 0rem;
+      border: 2px solid black;
+   }
+  
+  }
+
+  @media screen and (max-width: 1200px){
+  
+    section .flex-exp
+{
+  display: inline-flex;
+  height: fit-content;
+  margin-left: 0ch;
+  justify-content: center;
+  align-self: auto;
+  flex-wrap: wrap;
+  gap: 20vh;
+  width: auto;
+  border: 2px solid black;
+
+}
+  
+  
+  }

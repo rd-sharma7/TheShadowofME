@@ -1,1 +1,0 @@
-THis is a init of portfolio website.
