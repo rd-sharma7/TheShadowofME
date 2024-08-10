@@ -8,6 +8,7 @@
   body
   {
     font-family:"Poppins",sans-serif;
+    width: auto;
   }
 
   html
@@ -32,6 +33,7 @@ a,
 .navigation
 {
   display: flex;
+  width: fit-content;
   
 }
 
@@ -79,7 +81,7 @@ nav {
   .logo {
     display: flex;
     font-size: 2rem;
-    margin-right: 15ch;
+    margin-right: 25ch;
   }
   
   .logo:hover {
@@ -270,15 +272,46 @@ nav {
    display: none;
  }
 
+
+ .hello-welcome
+ {
+  display: inline-block;
+
+
+ }
+
+
  .desk-intro
  {
-  display: inline-flexbox;
+  display: flex;
   position: absolute;
   left: 25rem;
+  width: ;
 
+  
   font-size: 1.5rem;
-  border: 2px solid black;
+  /* border: 1px solid black; */
   margin-bottom: 20rem;
+
+  flex-direction: column;
+  justify-content: flex-start;
+
+
+  flex-direction: wrap;
+
+
+
+ }
+
+ .front-layout
+ {
+  height: 500px;
+  width: 300px;
+
+  display: flexbox;
+  justify-content: center;
+  background-color: green;
+
 
  }
 
@@ -286,10 +319,19 @@ nav {
  .cool-scene
  {
   height: 400px;
-  width: 4 ;
+  width:  400px;
+  margin-left:24em;
+
+  display: flex;
   position:relative;
-  margin-top: 15rem;
+  margin-top: 0rem;
+  background-image: url(realHardwork/360_F_570721293_DwrLDtL6Sa5g2Q0XFswR1gX0DexDCD9q.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
    background-color: #123456;
+
+
+   border-radius: 50%;
 
  }
 
@@ -313,6 +355,7 @@ nav {
  .about
  {
   display: inline-block;
+  margin-right: 0px;
  }
 
 section .about-me-section-div1
@@ -413,4 +456,17 @@ section .message-box
 #footer
 {
   background-color: rgb(216, 124, 101);
+}
+
+/* TYPE WRITER EFFECT */
+  
+
+.message-box {
+  width: 100%; /* set the width of the message box to 100% */
+}
+
+.textarea {
+  width: 100%; /* set the width of the textarea to 100% */
+  box-sizing: border-box; /* include padding and border in the width calculation */
+  resize: vertical; /* allow the textarea to be resized vertically only */
 }

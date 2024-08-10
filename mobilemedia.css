@@ -99,9 +99,40 @@
       display: none;
     }
 
+    .hello-welcome
+    {
+       display: inline-flexbox;
+       margin-top: 4ch;
+       margin-left: 2ch;
+       margin-bottom: 4ch;
+    }
+
+
+    .profile-image
+    {
+      display: flex;
+      flex-direction: column;
+
+    }
+
     .cool-scene
     {
-      display: unset;
+      height: 300px;
+      width:  300px;
+      margin-left:2rem;
+      margin-top: 30rem;
+      display:flex;
+      position:relative;
+      margin-top: 0rem;
+      background-image: url(realHardwork/360_F_570721293_DwrLDtL6Sa5g2Q0XFswR1gX0DexDCD9q.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+       background-color: #123456;
+    
+    
+       border-radius: 50%;
+
+      
     }
 
 
@@ -207,6 +238,34 @@
   border: 2px solid black;
 
 }
+
+section .message-box
+{
+  height: fit-content;
+  width: auto;
+  border: 2px solid black;
+  display: flexx
+
+}
   
-  
+  }
+
+  @media screen and (max-width: 1200px)
+  {
+    .front-layout{
+      display: none;
+    }
+
+    .message-box {
+      width: 100%; /* set the width of the message box to 100% */
+    }
+    
+    .textarea {
+      width: 100%; /* set the width of the textarea to 100% */
+      box-sizing: border-box; /* include padding and border in the width calculation */
+      resize: vertical; /* allow the textarea to be resized vertically only */
+    }
+
+
+
   }
