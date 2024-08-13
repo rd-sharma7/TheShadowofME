@@ -236,9 +236,10 @@
   
   .mcool-scene
   {
-    height: 400px;
+    height: 250px;
     width: 100%;
-    background-image: url(./image.jpg);
+    background-image: url(realHardwork/mobile-cool-scene.png);
+    background-size: contain;
   }
   }
 
@@ -306,6 +307,8 @@ section .message-box
       box-sizing: border-box; /* include padding and border in the width calculation */
       resize: vertical; /* allow the textarea to be resized vertically only */
     }
+
+
 
 
 
