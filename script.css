@@ -218,7 +218,7 @@ nav {
  section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -354,9 +354,15 @@ nav {
 
  .about
  {
-  display: inline-block;
+  display: flexbox;
   margin-right: 0px;
+  margin-top: 15ch;
  }
+
+section .about-flex
+{
+  display: flex;
+}
 
 section .about-me-section-div1
 {
@@ -367,15 +373,23 @@ section .about-me-section-div1
 }
 
 
- section .introduction
+.introduction
  {
-  height: 40vh;
+  height
   width: 120vh;
   display: inline-block;
   margin-left: 20rem;
   border: 2px solid black;
 }
 
+.about .name-in-about {
+  color: #123456;
+}
+
+.introduction .quick-intro {
+
+  line-height: 2.5;
+}
 
 section .cert1,.cert2,.cert3,.cert4
 {

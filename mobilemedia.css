@@ -10,6 +10,47 @@
     #projects {
       height: fit-content;
     }
+
+   .about {
+      padding: 2px;
+    }
+
+    .about-flex{
+
+      display: flex;
+      flex-wrap: wrap-reverse;
+
+    }
+
+    .introduction  {
+      height: 200ch;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(48, 237, 237);
+      
+      
+      
+    }
+
+    .introduction h1 {
+
+      margin: 0;
+      flex-shrink: 0;
+      font-size: 1.5rem;
+      margin: 1px 0 20px 0;
+    }
+
+    .introduction .quick-intro {
+
+      line-height: 1.5;
+
+    }
+    .about .about-me-section-div1
+    {
+      display: none;
+    }
+     
+
   }
 
   @media screen and (max-width: 1200px) {
