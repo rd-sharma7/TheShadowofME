@@ -49,7 +49,33 @@
     {
       display: none;
     }
+
+    .mobile-icons
+    {
+      height: 30vh;
+      width: auto;
+      display: flex;
+      margin-left: 4.6ch;
+      flex-direction: row;
+      gap: 2ch;
+      /* border: 2px solid rgb(255, 180, 42); */
+      font-size: 3.5ch;
+
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      height: 40px;
+      width: 40px;
+      color: white;
+      border: 50%;
+    }
      
+    #mobile-scroll{
+
+      font-size: 1rem;
+
+    }
 
   }
 
@@ -251,7 +277,7 @@
      font-size: 2rem;
      text-underline-offset: 1.2rem;
      text-decoration-line: underline;
-     margin-bottom: 3rem;
+     margin-bottom: 0rem;
    
     }
     section .introduction

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="script.css">
     <link rel="stylesheet" href="mobilemedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,10 +13,11 @@
     <div class="profile">
         <img src="./assets/develop-web.gif" alt="">
     </div>
+    <a id="top-of-web"></a>
 <nav id="desktop-nav" >
      
 
-    <div class="logo" >Rudresh Sharma</div>
+    <div class="logo" id="top-of-web" > <a href="#top-of-web">Rudresh Sharma</a></div>
     
     <div>
         <ul class="nav-links">
@@ -89,15 +91,25 @@
     
     </div>
 
-    <div class="cool-scene">  </div>  
+    <div class="cool-scene">  </div> 
+   
 </div>
-
          
 </div>
- 
+  
 </div>
 
- 
+<div class="mobile-icons"> 
+         
+    <a href="#github" class="fa fa-github icon-size"></a>
+     
+    <a href="#" class="fa fa-linkedin icon-size "></a>
+
+    <a href="#" class="fa fa-twitter icon-size "></a>
+
+     <h3 id="mobile-scroll" >Scrool</h3><i class="fa-solid fa-arrow-down"></i>
+    
+</div> 
  
 <div class="mcool-scene"> </div>
 
@@ -106,20 +118,26 @@
 
 <section class="about" >
 
-    <h1 id="about" >About me </h1>
+    <h1 id="about"  >About me </h1>
+    <span class="span-intro" >A Quick Introduction</span>
 
    <div class="about-flex"> 
-    <div class="about-me-section-div1"> 
-        
-        <h2>Contains icons</h2>
-    </div>
-
     <div class="introduction">
-        <h1 id="name-in-about" >Hi I'm Rudresh Sharma </h1>
-        <p class="quick-intro" >A Full-stack software developer dedicated to providing advanced web solutions using ReactJs/Angular, ReactNative, MongoDB/PostgreSQL & Node.js technologies.
+        
+        <p class="quick-intro" ><span class="first-word">Hi</span> I'm Rudresh Sharma ,a Full-stack software developer dedicated to providing advanced web solutions using ReactJs/Angular, ReactNative, MongoDB/PostgreSQL & Node.js technologies.
             I am proficient in developing scalable web APIs and designing custom user interfaces with the latest technologies, have a strong working knowledge of the full stack life cycle, from concept to implementation.
             I am highly capable of responding to pressure situations and I always aim to bring innovative solutions to the table.
             I share my knowledge on web design and development in my blog, btb.hashnode.dev </p>
+    </div>
+    <div class="about-me-section-div1"> 
+         
+        <a href="#github" class="fa fa-github icon-size"></a>
+         
+        <a href="#" class="fa fa-linkedin icon-size "></a>
+
+        <a href="#" class="fa fa-twitter icon-size "></a>
+
+        
     </div>
 </div>
 
@@ -182,7 +200,7 @@
 </section>
 
 
-<section class="contact">
+<!-- <section class="contact">
 
     <h1>Contact</h1>
 
@@ -208,8 +226,75 @@
 
 
 
-</section>
+</section> -->
 
+    <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(+94) 755422421</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">Prashanna01@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Kandy, Sri Lanka</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
 
 
 <script src="script.js"></script>
