@@ -387,7 +387,7 @@ section .about-flex
 }
 
 .mobile-icons{
-  display: inline;
+  display:none;
 }
 section .about-me-section-div1
 {
@@ -410,12 +410,17 @@ section .about-me-section-div1
   opacity: 0.7;
 }
 
-.fa-linkedin {
+/* .fa-linkedin {
   background: #007bb5;
   height: 40px;
   width: 40px;
   color: white;
   border: 50%;
+} */
+
+#linkedin  {
+  /* background-color: #007bb5; */
+  align-items: center;
 }
 
 
@@ -470,6 +475,79 @@ section .about-me-section-div1
   line-height: 2.5;
 }
 
+
+#plang{
+
+  font-size: 2.3ch;
+  
+}
+
+#fim-and-lib {
+
+  font-size: 2.3ch;
+
+}
+
+/* SKILLS ICONS AND CERTIFICATES */
+
+ .skills-and-cert{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.experience #skills-and-cert
+{
+  margin-bottom: 2.5ch; 
+  scroll-margin-top: 80px; 
+  text-align: center;
+}
+
+
+.lang-and-tool{
+
+  display: flex;
+  flex-direction:column;
+  width: fit-content;
+
+   
+   
+
+}
+
+
+.skillsicon{
+
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 30ch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+  margin: 4ch;
+
+
+}
+.skillsicon a {
+  flex: 1 1 30%; /* Each icon will take 30% of the row width, adjust as needed */
+  text-align: center;
+}
+
+
+.library-and-framework {
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: 5ch;
+}
+
+.library-and-framework a {
+
+  flex: 1 1 30%;
+}
 section .cert1,.cert2,.cert3,.cert4
 {
   height: 20vh;
@@ -480,34 +558,94 @@ section .cert1,.cert2,.cert3,.cert4
 }
 
 
+.flex-exp .cert1 {
+  background-image: url(realHardwork/ai-for-everyone.jpeg);
+  background-color: #123456;
+
+  background-size: cover;
+
+  height: 35vh;
+  width: 50vh;
+}
+
+.flex-exp .cert2 {
+  background-image: url(realHardwork/CodeChefBadge\ \(1\).png);
+  background-color: #123456;
+
+  background-size: cover;
+
+  height: 30vh;
+  width: 50vh;
+}
+
+.flex-exp .cert1 {
+  background-image: url(realHardwork/ai-for-everyone.jpeg);
+  background-color: #123456;
+
+  background-size: cover;
+
+  height: 30vh;
+  width: 50vh;
+}
+
+.flex-exp .cert3 {
+  background-image: url(realHardwork/Screenshot_15-8-2024_145438_skills.yourlearning.ibm.com.jpeg);
+  background-color: #123456;
+
+  background-size: cover;
+
+  height: 30vh;
+  width: 50vh;
+}
+ 
+.flex-exp .cert4 {
+  background-image: url(realHardwork/postman.api.png);
+  background-color: #fff;
+
+  background-size: contain;
+
+  height: 30vh;
+  width: 30vh;
+}
+
+
+
+
 section .experience
 {
   display: flex;
   flex-direction: row;
    
-  left: 20px;
+   
 }
 
-section .flex-exp
+#mobile-skills , #cert {
+  display: none;
+}
+
+ .flex-exp
 {
   display: inline-flex;
   height: fit-content;
-  margin-left: 35ch;
+  margin-left: 10px;
   justify-content: center;
   align-self: auto;
   flex-wrap: wrap;
-  gap: 20vh;
+  gap: 5em;
   width: auto;
   border: 2px solid black;
 
 }
 
 
-section .pDiv0
+section .pDiv
 {
   display: inline-flex;
   height: fit-content;
+  margin-top: 15ch;
   margin-left: 0ch;
+  position: absolute;
+  left: 40ch;
   justify-content: center;
   align-self: auto;
   flex-wrap: wrap;
@@ -517,6 +655,12 @@ section .pDiv0
 
 }
 
+#projects {
+
+  text-align: center;
+  scroll-margin-top: 60px;
+
+}
 section .pDiv1,.pDiv2,.pDiv3
 {
   height: 20vh;
@@ -524,6 +668,20 @@ section .pDiv1,.pDiv2,.pDiv3
   border: 2px solid black;
    
 
+
+}
+
+.projects .pDiv1 {
+
+  background-image: url(realHardwork/currency-converter.jpeg);
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  height : 44vh;
+  width: 50vh;
+
+  margin-top: 2rem;
 
 }
 

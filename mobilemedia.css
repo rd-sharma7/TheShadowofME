@@ -26,7 +26,7 @@
       height: 200ch;
       display: flex;
       flex-direction: column;
-      background-color: rgb(48, 237, 237);
+      /* background-color: rgb(48, 237, 237); */
       
       
       
@@ -36,13 +36,13 @@
 
       margin: 0;
       flex-shrink: 0;
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin: 1px 0 20px 0;
     }
 
     .introduction .quick-intro {
 
-      line-height: 1.5;
+      line-height: 1.7;
 
     }
     .about .about-me-section-div1
@@ -55,7 +55,7 @@
       height: 30vh;
       width: auto;
       display: flex;
-      margin-left: 4.6ch;
+      margin-left: 4ch;
       flex-direction: row;
       gap: 2ch;
       /* border: 2px solid rgb(255, 180, 42); */
@@ -289,19 +289,40 @@
       border: 2px solid black;
    }
   
+
+   #plang{
+
+    font-size: 2ch;
+  }
   }
 
   @media screen and (max-width: 1200px){
   
+#skills-and-cert {
+
+  display:none;
+}
+
+#mobile-skills {
+  display: flex;
+  justify-content: center;
+}
+
+#cert{
+  display: flex;
+  justify-content: center;
+}
+
     section .flex-exp
 {
   display: inline-flex;
   height: fit-content;
   margin-left: 0ch;
+  margin-top: 6ch;
   justify-content: center;
   align-self: auto;
   flex-wrap: wrap;
-  gap: 20vh;
+  gap: 10vh;
   width: auto;
   border: 2px solid black;
 
@@ -317,6 +338,83 @@ section .message-box
 }
   
   }
+
+
+
+
+
+/* SKILLS ICONS AND CERTIFICATES */
+
+@media screen and (max-width: 1200px){
+.skills-and-cert{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .skills-and-cert h1 {
+
+  margin-bottom: 2px;
+
+}
+
+#plang {
+  font-size: 15px;
+}
+
+#fim-and-lib {
+  font-size: 15px;
+}
+
+.lang-and-tool{
+
+  display: flex;
+  flex-direction:column;
+
+   
+   
+
+}
+
+
+.skillsicon{
+
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 30ch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: 4ch;
+
+
+}
+.skillsicon a {
+  flex: 1 1 30%; /* Each icon will take 30% of the row width, adjust as needed */
+  text-align: center;
+
+  height: 40px;
+  width: 40px;
+
+  margin-bottom: 5ch;
+}
+
+
+.library-and-framework {
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: 5ch;
+}
+
+.library-and-framework a {
+
+  flex: 1 1 30%;
+}
+
+}
 
   @media screen and (max-width: 1200px)
   {
@@ -335,7 +433,7 @@ section .message-box
     }
 
 
-
-
-
   }
+
+
+  
