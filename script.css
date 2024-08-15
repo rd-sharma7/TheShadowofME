@@ -764,25 +764,8 @@ section .experience
  {
    height: 15px;
  }
-section .message-box
-{
-  height: 80vh;
-  width: 100vh;
-  border: 2px solid black;
-  display: flexx
 
-}
-
-
-
-#text-box
-{
-  height: 50vh;
-  width: 70vh;
-  ruby-span: attr(jx);
-
-}
-
+ 
 
 .footer
 {

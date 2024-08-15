@@ -306,6 +306,8 @@
 #mobile-skills {
   display: flex;
   justify-content: center;
+  padding: 5px;
+  margin-bottom: 2ch;
 }
 
 #cert{
@@ -436,7 +438,7 @@ section .message-box
     height: 20rem;
     width: 20rem;
     margin-top: 5ch;
-    margin-left: 5ch;
+    margin-left: 1ch;
   }
 
   .footer
