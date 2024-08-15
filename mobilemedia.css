@@ -328,6 +328,11 @@
 
 }
 
+
+ 
+ 
+
+
 section .message-box
 {
   height: fit-content;
@@ -413,6 +418,43 @@ section .message-box
 
   flex: 1 1 30%;
 }
+
+
+.proj-container
+{
+  display: flex;
+  background-color: #fff;
+  gap: 4ch;
+
+  flex-direction: column;
+  margin-top: 5ch;
+
+}
+
+  .projects img 
+  {
+    height: 20rem;
+    width: 20rem;
+    margin-top: 5ch;
+    margin-left: 5ch;
+  }
+
+  .footer
+  {
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(270deg,#ff994f,#fa6d86);
+  }
+
+.contact-container
+{
+  margin-left: 2ch;
+}
+
+  .footer h1 
+  {
+    font-size: 2rem;
+  }
 
 }
 

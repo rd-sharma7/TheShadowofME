@@ -637,55 +637,133 @@ section .experience
 
 }
 
-
-section .pDiv
+.proj-container
 {
-  display: inline-flex;
-  height: fit-content;
-  margin-top: 15ch;
-  margin-left: 0ch;
-  position: absolute;
-  left: 40ch;
+  display: flex;
+  background-color: #fff;
   justify-content: center;
-  align-self: auto;
-  flex-wrap: wrap;
-  gap: 20vh;
-  width: auto;
-  border: 2px solid black;
+  flex-direction: row;
+  gap: 20rem;
+
+  margin-top: 14ch;
 
 }
 
-#projects {
+ 
 
+.projects img 
+{
+  height: 20rem;
+
+
+}
+
+.projects h1 
+{
   text-align: center;
   scroll-margin-top: 60px;
-
-}
-section .pDiv1,.pDiv2,.pDiv3
-{
-  height: 20vh;
-  width: 20vh;
-  border: 2px solid black;
-   
-
-
 }
 
-.projects .pDiv1 {
 
-  background-image: url(realHardwork/currency-converter.jpeg);
-  background-size: contain;
+ .footer
+ {
+  background-color: #123456;
+  text-align: center;
+ }
+
+ /* CONTACTS */
+
+ .contact-container
+ {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20ch;
+
+ }
+
+ .contact-left 
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+ }
+
+
+ .contact-title
+ {
+  font-weight: 600;
+  color: red;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+
+ }
+
+ .contact-title hr 
+ {
+  border: none;
+  font-weight: 120px;
+  height: 5px;
+  background-color: salmon;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+ }
+
+ .contact-inputs 
+ {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+
+ }
+
+ .contact-left textarea 
+ {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+ }
+
+
+ .contact-inputs:focus
+ {  
+   border: 2px solid #ff994f;
+
+ }
+
+ .contact-inputs::placeholder {
+
+  color: #a9a9a9;
+ }
+
+ .contact-left button {
 
   display: flex;
-  justify-content: center;
-  height : 44vh;
-  width: 50vh;
+  align-items: center;
+  padding: 15px  30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background:linear-gradient(270deg,#ff994f,#fa6d86);
+  cursor:pointer;
+ }
 
-  margin-top: 2rem;
-
-}
-
-
+ .contact-left button img 
+ {
+   height: 15px;
+ }
 section .message-box
 {
   height: 80vh;
@@ -694,6 +772,8 @@ section .message-box
   display: flexx
 
 }
+
+
 
 #text-box
 {
@@ -704,9 +784,9 @@ section .message-box
 }
 
 
-#footer
+.footer
 {
-  background-color: rgb(216, 124, 101);
+  background:linear-gradient(270deg,#ff994f,#fa6d86); 
 }
 
 /* TYPE WRITER EFFECT */
