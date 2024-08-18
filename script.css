@@ -784,3 +784,4 @@ section .experience
   box-sizing: border-box; /* include padding and border in the width calculation */
   resize: vertical; /* allow the textarea to be resized vertically only */
 }
+

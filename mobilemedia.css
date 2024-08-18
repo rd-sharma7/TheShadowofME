@@ -477,7 +477,120 @@ section .message-box
     }
 
 
+     
   }
 
 
+  @media screen and (max-width: 1200px){ 
+    .contact-container
+ {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left:0.2ch;
+
+ }
+
+ .contact-left 
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+ }
+
+
+ .contact-title
+ {
+  font-weight: 600;
+  color: red;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+
+ }
+
+ .contact-title hr 
+ {
+  border: none;
+  font-weight: 120px;
+  height: 5px;
+  background-color: salmon;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+ }
+
+ .contact-inputs 
+ {
+  width: 90%;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+
+ }
+
+ .contact-left textarea 
+ {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+ }
+
+
+ .contact-inputs:focus
+ {  
+   border: 2px solid #ff994f;
+
+ }
+
+ .contact-inputs::placeholder {
+
+  color: #a9a9a9;
+ }
+
+ .contact-left button {
+
+  display: flex;
+  align-items: center;
+  padding: 15px  30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background:linear-gradient(270deg,#ff994f,#fa6d86);
+  cursor:pointer;
+ }
+
+ .contact-left button img 
+ {
+   height: 15px;
+ }
+
+ 
+
+.footer
+{
+  background:linear-gradient(270deg,#ff994f,#fa6d86); 
+}
+
+/* TYPE WRITER EFFECT */
   
+
+.message-box {
+  width: 100%; /* set the width of the message box to 100% */
+}
+
+.textarea {
+  width: 100%; /* set the width of the textarea to 100% */
+  box-sizing: border-box; /* include padding and border in the width calculation */
+  resize: vertical; /* allow the textarea to be resized vertically only */
+}
+  }
